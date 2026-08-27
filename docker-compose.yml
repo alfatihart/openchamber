@@ -8,7 +8,7 @@ services:
       - "3000:3000"   # OpenChamber
       - "5173:5173"   # Vite dev server
       - "3001:3001"   # Next.js atau app lain
-      - "8080:8080"   # port umum lainnya
+      - "8888:8888"   # port umum lainnya
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
